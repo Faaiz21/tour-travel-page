@@ -351,6 +351,9 @@
        .box-container .box a:hover{
        	color: cyan;
        }
+      .footer .credit{
+        text-align:center;
+       }
        .footer .credit span {
        	color: cyan;
        }
