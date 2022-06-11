@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tours And Travels</title>
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Custom CSS file -->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	
+<header>
+	<div class="side-nav" id="sideBar">
+			<a href="#">Home</a>
+		<a href="#">Book Now</a>
+		<a href="#">Packages</a>
+		<a href="#">Review</a>
+		<a href="#">Contact Us</a>
+		<a href="#" id="close-btn" onclick="closeFunction()">&times;</a>
+		</div>
+	<nav>
+		<div class="menu-bar" id="menuBar" onclick="openFunction()">
+			&#9776;
+		</div>
+		
+	
+
+
+		<div class="links">
+		<a href="#">Home</a>
+		<a href="#">Book Now</a>
+		<a href="#">Packages</a>
+		<a href="#">Services</a>
+		<a href="#">Review</a>
+		<a href="#">Contact Us</a>
+		</div>
+		
+		<div class="search-bar">
+			<input type="text" placeholder="Search Here..." id="search">
+			<button> <i class="fas fa-search" id="search-btn"></i></button>
+		</div>
+	</nav>
+	
+</header>
+<div class="heading">
+<h3>adventure is worthwhile</h3>
+</div><br><br>
+
+<section class="book-now">
+	<h1 class="book">
+     <span>B</span>
+      <span>O</span>
+      <span>O</span>
+      <span>K</span>
+      <span class="empty"></span>
+      <span>N</span>
+      <span>O</span>
+      <span>W</span>
+     
+	  </h1>
+	  <div class="img-login">
+	  	<div class="img-bg">
+	  		<img src="images/logo.png">
+	  	</div>
+
+	  	<div class="book-form">
+	  		<h2>BOOK NOW</h2>
+	  		<form id="form">
+	  			<div class="input-control">
+	  				<label>NAME</label>
+	  				<input type="text" placeholder="Enter Your Name.." required id="name">
+	  				<div class="error"></div>
+	  			</div>
+                    
+                    <div class="input-control">
+	  				<label>SURNAME</label>
+	  				<input type="text" placeholder="Enter Your Surname.." required id="surname">
+	  				<div class="error"></div>
+	  			</div>
+
+	  			<div class="input-control">
+	  				<label>WHERE TO</label>
+	  				<input type="text" placeholder="Where To.." required id="whereTo">
+	  				<div class="error"></div>
+	  			</div>
+ 
+                    <div class="input-control">
+	  				<label>HOW MANY</label>
+	  				<input type="number" placeholder="How Many.." required id="howMany">
+	  				<div class="error"></div>
+	  			</div>
+
+	  			<div class="input-control">
+	  				<label>ARRIVALS</label>
+	  				<input type="date" placeholder="" required>
+	  			</div>
+
+                     <div class="input-control">
+	  				<label>LEAVING</label>
+	  				<input type="date" placeholder="" required>
+	  			</div>
+	  			<input type="submit" value="Book Now">
+
+	  		</form>
+	  	</div>
+	  </div>
+
+
+</section><br>
+
+<section class="Packages">
+	<h1 class="book">
+     <span>P</span>
+      <span>A</span>
+      <span>C</span>
+      <span>K</span>
+      <span>A</span>
+      <span>G</span>
+      <span>E</span>
+      <span>S</span>
+     
+	  </h1><br><br>
+
+	  <div class="card-sec">
+	  	<div class="card">
+	  		<img src="images/g-3.jpg">
+	  		<div class="card-content">
+	  			<h3>Mumbai</h3>
+	  			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+	  			 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div><br>
+               <div class="book-btn"> <a href="#" class="btn">book now</a> </div>
+	  		</div>
+	  	</div>
+
+	  	<div class="card">
+	  		<img src="images/g-4.jpg">
+	  		<div class="card-content">
+	  			<h3>New York</h3>
+	  			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+	  			 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div><br>
+                 <div class="book-btn"> <a href="#" class="btn">book now</a> </div>
+	  		</div>
+	  	</div>
+
+	  	<div class="card">
+	  		<img src="images/g-5.jpg">
+	  		<div class="card-content">
+	  			<h3>London</h3>
+	  			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+	  			 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div><br>
+                <div class="book-btn"> <a href="#" class="btn">book now</a> </div>
+	  		</div>
+	  	</div>
+
+	  	<div class="card">
+	  		<img src="images/g-6.jpg">
+	  		<div class="card-content">
+	  			<h3>Tokyo</h3>
+	  			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+	  			 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div><br>
+                <div class="book-btn"> <a href="#" class="btn">book now</a> </div>
+	  		</div>
+	  	</div>
+
+	  	<div class="card">
+	  		<img src="images/g-7.jpg">
+	  		<div class="card-content">
+	  			<h3>Sydney</h3>
+	  			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+	  			 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div><br>
+                 <div class="book-btn"> <a href="#" class="btn">book now</a> </div>
+	  		</div>
+	  	</div>
+
+	  	
+
+	  	<div class="card">
+	  		<img src="images/p-4.jpg">
+	  		<div class="card-content">
+	  			<h3>Paris</h3>
+	  			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+	  			 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div><br>
+                <div class="book-btn"> <a href="#" class="btn">book now</a> </div>
+	  		</div>
+	  	</div>
+	  </div>
+</section><br><br>
+
+<section class="Review">
+	<h1 class="book">
+     <span>R</span>
+      <span>E</span>
+      <span>V</span>
+      <span>I</span>
+      <span>E</span>
+      <span>W</span>  
+	  </h1>
+
+<div class="rev-wrapper">
+	<div class="rev-item">
+		<img src="images/pic1.png" >
+		<h3>John Deo</h3>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+		 <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+	</div>
+
+
+	<div class="rev-item">
+		<img src="images/pic2.png" >
+		<h3>John Cena</h3>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+		 <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+	</div>
+
+
+	<div class="rev-item">
+		<img src="images/pic3.png" >
+		<h3>John Deo</h3>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+		 <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+	</div>
+
+
+	<div class="rev-item">
+		<img src="images/pic4.png" >
+		<h3>Virat Kohli</h3>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+		 <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+	</div>
+
+
+
+</div>
+
+</section>
+
+
+
+
+<section class="contact" id="contact">
+    
+    <h1 class="book">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/logo.png" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est accusantium voluptas enim nemo facilis sit debitis.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Faaiz Sorathiya  </span> | all rights reserved! </h1>
+
+</section>
+
+<script type="text/javascript">
+
+//Menu button function
+	function openFunction(){
+		document.getElementById('menuBar').style.marginLeft="200px";
+		document.getElementById('sideBar').style.width="200px";
+		
+	}
+	function closeFunction(){
+		document.getElementById('menuBar').style.marginLeft="0px";
+		document.getElementById('sideBar').style.width="0px";
+	}
+    
+   
+   
+   
+</script>
+</body>
+</html>
